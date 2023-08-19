@@ -1,4 +1,5 @@
-from functions import getting_json_from_web, finding_ides, key_in_list
+from main_folder.functions import getting_json_from_web, finding_ides, key_in_list
+
 
 def test_getting_json_from_web():
     link = 'https://jsonplaceholder.typicode.com/posts'
@@ -22,7 +23,6 @@ def test_key_in_list_value_without_whitespace():
     key = 'key'
     list_ = {'key': 'name'}
     assert key_in_list(key, list_) == ''
-
 
 
 

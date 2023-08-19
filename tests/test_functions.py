@@ -1,4 +1,4 @@
-from main_folder import getting_json_from_web, finding_ides, key_in_list
+from function import getting_json_from_web, finding_ides, key_in_list
 
 def test_getting_json_from_web():
     link = 'https://jsonplaceholder.typicode.com/posts'

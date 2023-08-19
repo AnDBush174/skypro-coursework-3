@@ -29,3 +29,5 @@ F
 main_folder/.gitignore,1\e\1efb5209327b3bb6c1e82298af34cabad559453a
 L
 main_folder/requirements.txt,8\2\82742bff830f4184cf6304876f23d3414e25c937
+A
+tests/__init__.py,8\e\8e911f6351f3fa0cd30fc10a701473fbb56707e6

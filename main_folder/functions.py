@@ -7,7 +7,8 @@ def getting_json_from_web(link):
     return file
 
 def finding_ides(file, quantity=5, sort_type=True):
-    """Ф-я находит id последних операций и возвращает их в правильном порядке"""
+    """Функция осуществляет получение списка словарей из интернет-ресурса,
+     на основе предоставленной ссылки."""
     list_of_id = []
     dates = []
     dict_of_dates = {}
@@ -27,6 +28,8 @@ def finding_ides(file, quantity=5, sort_type=True):
     return list_of_id
 
 def key_in_list(key, list_):
+    """Функция проверяет наличие ключа в списке и выполняет определенные операции
+     в зависимости от результата"""
     if key in list_:
         value = list_[key]
         parts = value.split()
